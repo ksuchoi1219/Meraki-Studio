@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://sprites/cats/cat1.jpg" type="Texture" id=1]
+
+[node name="Cat" type="KinematicBody2D"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+position = Vector2( 491.85, 275.223 )
+scale = Vector2( 0.542685, 0.489245 )
+texture = ExtResource( 1 )
+
+

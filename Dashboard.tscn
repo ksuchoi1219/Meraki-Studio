@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Cat.tscn" type="PackedScene" id=1]
+
+[node name="Dashboard" type="Node2D" index="0"]
+
+[node name="Cat" parent="." index="0" instance=ExtResource( 1 )]
+
+position = Vector2( -13.589, 17.7802 )
+
+

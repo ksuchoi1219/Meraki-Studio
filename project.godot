@@ -11,7 +11,7 @@ config_version=3
 [application]
 
 config/name="Meraki Studio"
-run/main_scene="res://Dashboard.tscn"
+run/main_scene="res://scenes/Cat1.tscn"
 config/icon="res://icon.png"
 
 [display]
